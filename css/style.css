@@ -1,0 +1,319 @@
+:root {
+
+    --facebook: #3B5998;
+    --twitter: #00ACEE;
+    --instagram: #515BD4, #8134AF, #DD2A7B, #FEDA77 90%, #F58529 100%;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    list-style: none;
+
+    text-decoration: none;
+
+}
+
+body {
+
+    background: url('../imagens/background.png') no-repeat;
+    background-attachment: fixed;
+
+    padding-top: 1rem;
+
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1200px;
+
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+
+}
+
+header .sectionLogoNav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1050px;
+
+}
+
+header .sectionLogoNav .divisoriaLogo img {
+
+    width: 250px;
+
+}
+
+header .sectionLogoNav nav ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    width: 700px;
+
+}
+
+header .sectionLogoNav nav ul li {
+
+    color: #232D60;
+
+    text-align: center;
+
+    width: 150px;
+
+    cursor: pointer;
+
+    transition: all 0.3s;
+
+}
+
+header .sectionLogoNav nav ul li:hover {
+
+    /* text-decoration: underline; */
+
+}
+
+header .sectionShopping {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header .sectionShopping .fas {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(to bottom right, #A4C8FD 20%, #BDB5F7, #F092EB 70%);
+    color: white;
+
+    font-size: 2rem;
+
+    border-radius: 5px;
+
+    width: 50px;
+    height: 50px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease-in;
+
+}
+
+header .sectionShopping .fas:hover {
+
+    box-shadow: 0 0 7px rgb(0, 0, 0);
+
+    transform: scale(1.1);
+
+}
+
+main {
+
+    display: grid;
+    grid-template-columns: 300px repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+
+    position: absolute;
+    bottom: 0;
+}
+
+main footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: column;
+
+    height: 250px;
+
+    margin: auto;
+
+}
+
+main footer .fab {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #232D60;
+
+    font-size: 2rem;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+    border-radius: 100px;
+
+    width: 50px;
+    height: 50px;
+
+    transition: all 0.1s;
+
+}
+
+main footer .fab:hover {
+
+    color: white;
+
+    border-radius: 15px;
+
+}
+
+main footer .fa-facebook-f:hover {
+
+    background: var(--facebook);
+
+    border: 1px solid var(--facebook);
+
+}
+
+main footer .fa-twitter:hover {
+
+    background: var(--twitter);
+
+    border: 1px solid var(--twitter);
+
+}
+
+main footer .fa-instagram:hover {
+
+    background-image: linear-gradient(to left bottom, var(--instagram));
+
+    border: 1px solid var(--instagram);
+
+}
+
+main footer .fa-github:hover {
+
+    background: black;
+
+    border: 1px solid black;
+
+}
+
+main .divisoriaTexto {
+    
+    height: 400px;
+    
+    margin: auto;
+
+}
+
+main .divisoriaTexto button {
+
+    background: linear-gradient(to top right, #A4C8FD 10%, #BDB5F7, #F092EB 70%);
+    color: white;
+
+    font-size: 1.3rem;
+    
+    border: none;
+    
+    border-radius: 10px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+    width: 250px;
+    height: 50px;
+
+    margin-bottom: 2rem;
+
+    cursor: pointer;
+
+
+}
+
+main .divisoriaTexto button:hover {
+
+    box-shadow: 0 0 10px black;
+
+}
+
+main .divisoriaTexto h1 {
+
+    color: #232D60;
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+
+    margin-bottom: 2rem;
+
+}
+
+main .divisoriaTexto h2 {
+
+    color: #232D60;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 2rem;
+
+    margin-bottom: 2rem;
+
+}
+
+main .divisoriaTexto .divisoriaArrowButtons {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 150px;
+
+}
+
+main .divisoriaTexto .divisoriaArrowButtons .fas {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 2rem;
+    
+    border: 1px solid;
+
+    border-radius: 50%;
+
+    width: 60px;
+    height: 60px;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease-in;
+
+}
+
+main .divisoriaTexto .divisoriaArrowButtons .fas:hover {
+
+    background-image: linear-gradient(to top right, #A4C8FD 10%, #BDB5F7, #F092EB 70%);
+
+    color: white;
+
+    border: none;
+
+}
