@@ -47,7 +47,7 @@ header .sectionLogoNav {
     align-items: center;
     justify-content: space-between;
 
-    width: 1050px;
+    width: 970px;
 
 }
 
@@ -77,7 +77,7 @@ header .sectionLogoNav nav ul li {
 
     text-align: center;
 
-    width: 150px;
+    width: 175px;
 
     cursor: pointer;
 
@@ -87,7 +87,8 @@ header .sectionLogoNav nav ul li {
 
 header .sectionLogoNav nav ul li:hover {
 
-    /* text-decoration: underline; */
+    background: #232D60;
+    color: white;
 
 }
 
